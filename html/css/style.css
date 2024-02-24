@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Exo2;
+    src: url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap');
+}
+
+/*classes e body*/
+
+body{
+
+    background-color: #080D14;
+    margin: 5em;
+    font-family: Exo2, sans-serif;
+
+}
+
+.gradient-border {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    background-color: #080D14; /* Cor de fundo */
+    color: #333; /* Cor do texto */
+    border: none; /* Remover borda padrão */
+}
+.gradient-border::after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px; 
+    z-index: -1; 
+    border-radius: 1%;
+    background: linear-gradient(to right, #00FFFF, #FF1493);
+}
+
+.title{
+
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    background: linear-gradient(to right,  #00FFFF, #FF1493);
+            -webkit-background-clip: text; /* Clipar o gradiente para o texto */
+            color: transparent; /* Tornar o texto transparente */
+            font-size: larger;
+            font-weight: bold;
+            text-align: center;
+}
+
+.nave{
+
+}
+
+.page{
+
+    padding: 2em;
+    margin: 1em;
+
+}
+
+
+/* links em geral */
+
+a{
+
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    color: #00FFFF ;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to right, #FF1493 35%, #00FFFF, #00BFFF); /* Gradiente */
+    -webkit-background-clip: text; 
+    color: transparent; 
+    display: inline;
+}
+
+img{
+
+    width: 450px;
+    height: 300px;
+
+}
