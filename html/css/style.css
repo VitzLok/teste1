@@ -23,9 +23,9 @@ body{
     padding: 20px;
     text-align: center;
     font-size: 24px;
-    background-color: #080D14; /* Cor de fundo */
-    color: #333; /* Cor do texto */
-    border: none; /* Remover borda padrão */
+    background-color: #080D14; 
+    color: #333; 
+    border: none; 
 }
 .gradient-border::after {
     content: '';
@@ -43,11 +43,11 @@ body{
 
     font-family: 'Courier New', Courier, monospace, sans-serif;
     background: linear-gradient(to right,  #00FFFF, #FF1493);
-            -webkit-background-clip: text; /* Clipar o gradiente para o texto */
-            color: transparent; /* Tornar o texto transparente */
-            font-size: larger;
-            font-weight: bold;
-            text-align: center;
+    -webkit-background-clip: text; 
+    color: transparent;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
 }
 
 .nave{
